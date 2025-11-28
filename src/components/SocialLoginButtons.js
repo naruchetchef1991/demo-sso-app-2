@@ -4,17 +4,17 @@ import './SocialLoginButtons.css';
 const SocialLoginButtons = () => {
   const handleFacebookLogin = () => {
     // alert('Facebook login clicked! (Demo only)');
-    window.location.href = 'https://keycloak-production-d384.up.railway.app/realms/samui/protocol/openid-connect/auth?client_id=my-web-01&redirect_uri=https://demo-sso-app-1.vercel.app&response_type=code&scope=openid&kc_idp_hint=facebook';
+    window.location.href = 'https://keycloak-production-d384.up.railway.app/realms/samui/protocol/openid-connect/auth?client_id=my-web-01&redirect_uri=https://demo-sso-app-2.vercel.app&response_type=code&scope=openid&kc_idp_hint=facebook';
   };
 
   const handleGoogleLogin = () => {
     // alert('Google login clicked! (Demo only)');
-    window.location.href = 'https://keycloak-production-d384.up.railway.app/realms/samui/protocol/openid-connect/auth?client_id=my-web-01&redirect_uri=https://demo-sso-app-1.vercel.app&response_type=code&scope=openid&kc_idp_hint=google';
+    window.location.href = 'https://keycloak-production-d384.up.railway.app/realms/samui/protocol/openid-connect/auth?client_id=my-web-01&redirect_uri=https://demo-sso-app-2.vercel.app&response_type=code&scope=openid&kc_idp_hint=google';
   };
 
   const handleLineLogin = () => {
     // alert('LINE login clicked! (Demo only)');
-    window.location.href = 'https://keycloak-production-d384.up.railway.app/realms/samui/protocol/openid-connect/auth?client_id=my-web-01&redirect_uri=https://demo-sso-app-1.vercel.app&response_type=code&scope=openid&kc_idp_hint=line';
+    window.location.href = 'https://keycloak-production-d384.up.railway.app/realms/samui/protocol/openid-connect/auth?client_id=my-web-01&redirect_uri=https://demo-sso-app-2.vercel.app&response_type=code&scope=openid&kc_idp_hint=line';
   };
 
   return (
