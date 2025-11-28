@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import SocialLoginButtons from './components/SocialLoginButtons';
-import TokenHandler from './components/TokenHandler';
 import UserProfile from './components/UserProfile';
 import './App.css';
 
@@ -145,7 +144,6 @@ function App() {
         <h1>Social Login Demo APP 2</h1>
         <p>Choose your preferred login method</p>
         <SocialLoginButtons />
-        <TokenHandler />
       </header>
     </div>
   );
